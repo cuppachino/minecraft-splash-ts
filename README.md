@@ -1,23 +1,22 @@
-# Minecraft Splash MOTD
-499 minecraft title screen messages in json. Includes bedrock edition exclusives.
+# Minecraft Splash Memes
 
-Such as...
+496 minecraft title screen messages in json. Includes bedrock edition exclusives.
+
+## Examples
 ```json5
 [
-  "Omnipotent!",
+  "That's no moon!",
+  "90% bug free!",
   "Gasp!",
-  "...!",
   "Bees, bees, bees, bees!",
   "Jag känner en bot!",
   "This text is hard to read if you play the game at the default resolution, but at 1080p it's fine!",
-  // ...
+  "...!",
+  // ... 489 more
 ]
 ```
 
 ## Omissions
-```diff
 - code.org/minecraft
-```
-```diff
 - discord.gg/minecraft
-```
+- feedback.minecraft.net
