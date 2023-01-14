@@ -1,4 +1,4 @@
-# Minecraft Splash Memes
+# Minecraft Splash Text
 
 496 minecraft title screen messages in json. Includes bedrock edition exclusives.
 
