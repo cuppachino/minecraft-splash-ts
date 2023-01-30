@@ -1,4 +1,4 @@
-# Minecraft Title Text
+# Minecraft Splash (TS)
 
 502 total splash quotes.
 
@@ -15,7 +15,7 @@
 ]
 ```
 
-## `mincraft-title-text`
+## `mincraft-splash-ts`
 
 ### Installation
 
@@ -24,19 +24,19 @@ Add to your project using your favorite package manager.
 ### NPM
 
 ```llvm
-npm install minecraft-title-text
+npm install minecraft-splash-ts
 ```
 
 ### PNPM
 
 ```llvm
-pnpm add minecraft-title-text
+pnpm add minecraft-splash-ts
 ```
 
 ### Yarn
 
 ```llvm
-yarn add minecraft-title-text
+yarn add minecraft-splash-ts
 ```
 
 ## Exports
