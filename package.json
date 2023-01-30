@@ -1,6 +1,6 @@
 {
   "name": "minecraft-splash-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An updated collection of minecraft's title screen messages (java + bedrock).",
   "author": "cuppachino <cuppachino.dev@gmail.com>",
   "license": "GPL-3.0",
