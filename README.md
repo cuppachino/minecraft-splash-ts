@@ -23,7 +23,7 @@ Add to your project using your favorite package manager.
 
 ### NPM
 
-```hs
+```llvm
 npm install minecraft-title-text
 ```
 
