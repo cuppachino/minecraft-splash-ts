@@ -44,7 +44,7 @@
     "regenerator-runtime": "^0.13.11",
     "ts-node": "^10.9.1",
     "tslib": "^2.4.1",
-    "typescript": "^4.9.4"
+    "typescript": "^5.0.0"
   },
   "dependencies": {
     "colorix": "^1.0.3"
