@@ -5,7 +5,7 @@ specifiers:
   '@swc/core': ^1.3.27
   '@swc/helpers': ^0.4.14
   '@types/node': ^18.11.18
-  colorix: ^1.0.3
+  colorix: ^2.0.0
   nodemon: ^2.0.20
   regenerator-runtime: ^0.13.11
   ts-node: ^10.9.1
@@ -13,7 +13,7 @@ specifiers:
   typescript: ^4.9.4
 
 dependencies:
-  colorix: 1.0.3
+  colorix: 2.0.2
 
 devDependencies:
   '@cuppachino/type-space': 1.10.1
@@ -37,6 +37,11 @@ packages:
 
   /@cuppachino/type-space/1.10.1:
     resolution: {integrity: sha512-DLUk/EFme1BxnBTlJuezd18/k+MCNLEEk92Ow2U2MFs9jM5t0uamxduKRxVVw4nmeh99aJosr6fm8FE8o+9dpg==}
+    dev: true
+
+  /@cuppachino/type-space/1.16.0:
+    resolution: {integrity: sha512-GOldvmkOFomI5Fy0x6vbzggXfmrg/J21H7MWU4MyrCO94WSb50CheXD9yvkRGXylsc2BMJ1kQDMviSml2a6vBQ==}
+    dev: false
 
   /@jridgewell/resolve-uri/3.1.0:
     resolution: {integrity: sha512-F2msla3tad+Mfht5cJq7LSXcdudKTWCVYUgw6pLFOOHSTtZlj6SWNYAp+AhuqLmWdBO2X5hPrLcu8cVP8fy28w==}
@@ -183,6 +188,10 @@ packages:
     resolution: {integrity: sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==}
     dev: true
 
+  /@type-challenges/utils/0.1.1:
+    resolution: {integrity: sha512-A7ljYfBM+FLw+NDyuYvGBJiCEV9c0lPWEAdzfOAkb3JFqfLl0Iv/WhWMMARHiRKlmmiD1g8gz/507yVvHdQUYA==}
+    dev: false
+
   /@types/node/18.11.18:
     resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
     dev: true
@@ -201,6 +210,11 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: true
+
+  /ansi-regex/6.0.1:
+    resolution: {integrity: sha512-n5M855fKb2SsfMIiFFoVrABHJC8QtHwVx+mHWP3QcEqBHYienj5dHSgjbxtC0WEZXYt4wcD6zrQElDPhFuZgfA==}
+    engines: {node: '>=12'}
+    dev: false
 
   /anymatch/3.1.3:
     resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==}
@@ -252,10 +266,12 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /colorix/1.0.3:
-    resolution: {integrity: sha512-8TxeH8OKKZaRomXKKAL/sGS4Y4ZYSxwe0rxr/s4tPrX4/NDNE0aX8m9Lw684mdbPK0AYBSl0AV91r3+FFZURjg==}
+  /colorix/2.0.2:
+    resolution: {integrity: sha512-zRxy4JPmBgqSlHFqxKOuXCXxHTV4TkSIwAuCrrcu7p7nC49dlsTwUlsvI99B/8R35ydBbvT0SQZtoi3WVaApBQ==}
     dependencies:
-      '@cuppachino/type-space': 1.10.1
+      '@cuppachino/type-space': 1.16.0
+      '@type-challenges/utils': 0.1.1
+      strip-ansi: 7.0.1
       supports-color: 9.3.1
     dev: false
 
@@ -418,6 +434,13 @@ packages:
     dependencies:
       semver: 7.0.0
     dev: true
+
+  /strip-ansi/7.0.1:
+    resolution: {integrity: sha512-cXNxvT8dFNRVfhVME3JAe98mkXDYN2O1l7jmcwMnOslDeESg1rF/OZMtK0nRAhiari1unG5cD4jG3rapUAkLbw==}
+    engines: {node: '>=12'}
+    dependencies:
+      ansi-regex: 6.0.1
+    dev: false
 
   /supports-color/5.5.0:
     resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}
