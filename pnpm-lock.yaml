@@ -7,7 +7,7 @@ specifiers:
   '@types/node': ^18.11.18
   colorix: ^1.0.3
   nodemon: ^2.0.20
-  regenerator-runtime: ^0.13.11
+  regenerator-runtime: ^0.14.0
   ts-node: ^10.9.1
   tslib: ^2.4.1
   typescript: ^4.9.4
@@ -21,7 +21,7 @@ devDependencies:
   '@swc/helpers': 0.4.14
   '@types/node': 18.11.18
   nodemon: 2.0.20
-  regenerator-runtime: 0.13.11
+  regenerator-runtime: 0.14.0
   ts-node: 10.9.1_tuaaix3o4wua7jksxyu5belrtq
   tslib: 2.4.1
   typescript: 4.9.4
@@ -398,8 +398,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /regenerator-runtime/0.13.11:
-    resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
+  /regenerator-runtime/0.14.0:
+    resolution: {integrity: sha512-srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==}
     dev: true
 
   /semver/5.7.1:
