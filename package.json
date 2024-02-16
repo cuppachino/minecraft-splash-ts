@@ -27,7 +27,7 @@
   ],
   "main": "dist/index.mjs",
   "type": "module",
-  "packageManager": "pnpm@7.25.0",
+  "packageManager": "pnpm@7.33.7",
   "scripts": {
     "dev": "nodemon --watch src --exec ts-node-esm ./src/index.mts",
     "build:swc": "ts-node ./src/index.mts",
